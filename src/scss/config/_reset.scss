@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+img{
+    vertical-align: top;
+    max-width: 100%;
+    display: inline-block;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+
+}
+
+ul[class],
+ol[class]{
+    list-style: none;
+}
+
+textarea{
+    resize: none;
+}
