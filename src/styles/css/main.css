@@ -185,6 +185,10 @@ textarea {
           transform: translateX(-15%);
 }
 
+.form {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 .form__items {
   display: -webkit-box;
   display: -ms-flexbox;
