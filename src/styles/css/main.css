@@ -234,10 +234,10 @@ textarea {
 }
 
 .upcoming__title {
-  font-size: 2.5rem;
-  color: #242565;
-  font-family: "Montserrat", sans-serif;
   float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #242565;
 }
 .upcoming__choice {
   display: -webkit-box;
@@ -246,19 +246,16 @@ textarea {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  font-size: 1rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: 1.3rem;
 }
-.form__upcoming__input {
+.upcoming__input {
+  color: #1D275F;
   font-family: "DM Sans", sans-serif;
   border: none;
-  padding: 1rem 1.3rem;
+  padding: 1rem 1.5rem;
   border-radius: 2rem;
   background-color: #F2F4FF;
 }
-.form__upcoming__input:focus {
+.upcoming__input:focus {
   outline: 1px solid #b8bac2;
 }

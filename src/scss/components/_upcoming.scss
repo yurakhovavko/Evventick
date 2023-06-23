@@ -1,17 +1,17 @@
-    .upcoming {
+.upcoming {
+
     // .upcoming__header
 
     &__header {
-
     }
 
     // .upcoming__title
 
     &__title {
-    font-size: 2.5rem;
-    color: #242565; 
-    font-family: 'Montserrat', sans-serif;
-    float: left;
+        float: left;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        color: #242565;
     }
 
     // .upcoming__choice
@@ -20,10 +20,16 @@
         display: flex;
         justify-content: flex-end;
         gap: 1.3rem;
-        margin-top: 1rem;
     }
 
-    &__upcoming__input {
+    // .upcoming__weekdays
+
+    &__weekdays {
+    }
+
+    // .upcoming__input
+
+    &__input {
         color: #1D275F;
         font-family: 'DM Sans', sans-serif;
         border: none;
@@ -36,25 +42,13 @@
         }
     }
 
-
-    // .form__time
-
-    &__time {
-    }
-
-    // .form__input-time
-
-    &__input-time {
-    }
- 
-    // .upcoming__weekdays
-
-    &__weekdays {
-    }
-
     // .upcoming__type
 
     &__type {
     }
 
+    // .upcoming__category
+
+    &__category {
+    }
 }
