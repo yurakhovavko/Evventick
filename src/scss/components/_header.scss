@@ -1,8 +1,15 @@
-.upcoming {
+.header{
+    position: fixed;
+        top: 0;
+        min-width: 100%;
+        min-height: 78px;
+        z-index: 15;
+    }
 
     // .upcoming__header
 
     &__header {
+        
     }
 
     // .upcoming__title
@@ -48,6 +55,6 @@
 
     &__category {
     }
-}
+
 .container {
 }
