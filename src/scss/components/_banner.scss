@@ -1,3 +1,9 @@
+.banner-content-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
 .banner{
 // background-image: url("/src/assets/images/people.png");
 background-image: url("/src/assets/images/Rectangle\ 10.png");
@@ -22,10 +28,34 @@ min-height:58rem;
     margin-top: 3rem;
     font-family: 'Montserrat', sans-serif;
 }
+
+&__search-box-content {
+    display: flex;
+    justify-content: center;
+    background-color: #242565;
+}
+
+
+
+&__search-box {
+    width: 290px;
+    border: none;
+    border-bottom: 2px solid #7778B0;
+    background-color: #242565;
+}
+
+
+
+&__search-box-item {
+    
+}
+
 }
 
 .kpop{
     float: left;
-    transform: translateX(-20%);
+    transform: translateX(-15%);
 }
+
+
 

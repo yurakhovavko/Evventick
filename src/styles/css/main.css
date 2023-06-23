@@ -132,6 +132,18 @@ textarea {
   cursor: pointer;
 }
 
+.banner-content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .banner {
   background-image: url("/src/assets/images/Rectangle 10.png");
   background-color: #333333;
@@ -152,9 +164,32 @@ textarea {
   margin-top: 3rem;
   font-family: "Montserrat", sans-serif;
 }
-
+.banner__search-box-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #242565;
+}
+.banner__search-box {
+  width: 290px;
+  border: none;
+  border-bottom: 2px solid #7778B0;
+  background-color: #242565;
+}
 .kpop {
   float: left;
-  -webkit-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -webkit-transform: translateX(-15%);
+          transform: translateX(-15%);
+}
+
+.form__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
