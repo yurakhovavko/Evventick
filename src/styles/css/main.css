@@ -65,46 +65,24 @@ textarea {
   cursor: pointer;
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  min-width: 100%;
-  min-height: 78px;
-  z-index: 15;
-}
-
-.navigation__logo {
-  margin-top: 1rem;
+.upcoming__title {
   float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #242565;
 }
-.navigation__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 1rem;
-}
-.navigation__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 1rem 5rem;
-  gap: 70px;
+.upcoming__input {
+  color: #1D275F;
   font-family: "DM Sans", sans-serif;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #F2F4FF;
+  background-image: url("/src/assets/icons/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
 }
-.navigation__link {
-  color: #fff;
-  text-decoration: none;
-}
-
 .header-button {
   border: 2px solid;
   color: #fff;
@@ -183,7 +161,7 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 67rem;
+  max-width: 88rem;
   margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -193,6 +171,9 @@ textarea {
   padding: 2rem 3rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+.form .label {
+  font-family: "Montserrat", sans-serif;
 }
 .form__event {
   font-size: 1rem;
@@ -228,4 +209,31 @@ textarea {
   color: #fff;
   font-size: 1rem;
   font-family: "DM Sans" sans-serif;
+}
+
+.upcoming__title {
+  font-size: 2.5rem;
+  color: #242565;
+  font-family: "Montserrat", sans-serif;
+  float: left;
+}
+.upcoming__choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+.form__upcoming__input {
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #F2F4FF;
 }

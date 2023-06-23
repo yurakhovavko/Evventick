@@ -1,0 +1,63 @@
+.upcoming {
+    // .upcoming__header
+
+    &__header {
+
+    }
+
+    // .upcoming__title
+
+    &__title {
+        font-size: 2.5rem;
+        color: #242565; 
+        font-family: 'Montserrat', sans-serif;
+        float: left;
+    }
+
+    // .upcoming__choice
+
+    &__choice {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1rem;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    // .upcoming__weekdays
+
+    &__weekdays {
+    }
+
+    // .upcoming__type
+
+    &__type {
+    }
+}
+.container {
+}
+.form {
+
+    // .form__input
+
+    &__upcoming__input {
+        font-family: 'DM Sans', sans-serif;
+        border: none;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+        background-color: #F2F4FF;
+
+
+    }
+    
+
+    // .form__time
+
+    &__time {
+    }
+
+    // .form__input-time
+
+    &__input-time {
+    }
+}

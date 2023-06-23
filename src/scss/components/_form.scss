@@ -4,7 +4,7 @@
 
     &__items {
         display: flex;
-        max-width: 67rem;
+        max-width: 88rem;
         margin: auto;
         align-items: center;
         background-color: #242565;
@@ -13,6 +13,9 @@
         justify-content: space-around;
     }
 
+    .label{
+         font-family: 'Montserrat', sans-serif;
+    }
     // .form__search
 
     &__event {

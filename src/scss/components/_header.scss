@@ -1,48 +1,53 @@
-.header{
-position: fixed;
-    top: 0;
-    min-width: 100%;
-    min-height: 78px;
-    z-index: 15;
-}
+.upcoming {
 
-.navigation {
+    // .upcoming__header
 
-    // .navigation__logo
+    &__header {
+    }
 
-    &__logo {
-        margin-top: 1rem;
+    // .upcoming__title
+
+    &__title {
         float: left;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        color: #242565;
     }
 
-    // .navigation__menu
+    // .upcoming__choice
 
-    &__menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1rem;
+    &__choice {
     }
 
-    // .navigation__list
+    // .upcoming__weekdays
 
-    &__list {
-            display: flex;
-            justify-content: center;
-    padding: 1rem 5rem;
-            gap: 70px;
-    font-family: 'DM Sans', sans-serif;
+    &__weekdays {
     }
 
-    // .navigation__list-item
+    // .upcoming__input
 
-    &__list-item {
+    &__input {
+        color: #1D275F;
+        font-family: 'DM Sans', sans-serif;
+        border: none;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+        background-color: #F2F4FF;
+        background-image: url('/src/assets/icons/Vector.svg');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-right: 20px;
     }
 
-    // .navigation__link
+    // .upcoming__type
 
-    &__link {
-    color: $main-color;
-            text-decoration: none;
+    &__type {
     }
+
+    // .upcoming__category
+
+    &__category {
+    }
+}
+.container {
 }
