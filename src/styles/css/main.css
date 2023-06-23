@@ -1,1 +1,152 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1440px;
+}
+
+.header-button {
+  border: 2px solid;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 0.7rem 1.3rem;
+}
+
+.banner__button-learn {
+  margin-top: 2rem;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 1.4rem 3rem;
+  margin-right: 1.3rem;
+  background-color: #F5167E;
+}
+
+.banner__button-ticket {
+  margin-top: 2rem;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 7rem;
+  padding: 1.3rem 2.8rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  min-height: 78px;
+  z-index: 15;
+}
+
+.navigation__logo {
+  margin-top: 1rem;
+  float: left;
+}
+.navigation__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 5rem;
+  gap: 70px;
+  font-family: "DM Sans", sans-serif;
+}
+.navigation__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-button {
+  border: 2px solid;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 0.7rem 1.3rem;
+}
+
+.banner__button-learn {
+  margin-top: 2rem;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 1.4rem 3rem;
+  margin-right: 1.3rem;
+  background-color: #F5167E;
+}
+
+.banner__button-ticket {
+  margin-top: 2rem;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 7rem;
+  padding: 1.3rem 2.8rem;
+}
+
+.banner {
+  background-image: url("/src/assets/images/Rectangle 10.png");
+  background-color: #333333;
+  background-size: cover;
+  background-position: center;
+  padding: 13rem 0;
+  min-height: 58rem;
+}
+.banner__title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.banner__description {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.kpop {
+  float: left;
+}
