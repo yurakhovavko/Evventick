@@ -149,7 +149,7 @@ textarea {
   background-color: #333333;
   background-size: cover;
   background-position: center;
-  padding: 13rem 0;
+  padding-top: 13rem;
   min-height: 58rem;
 }
 .banner__title {
@@ -189,7 +189,49 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  max-width: 67rem;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242565;
+  border-radius: 25px;
+  padding: 2rem 3rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.form__event {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "DM Sans" sans-serif;
+}
+.form__input {
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #7778B0;
+  color: #fff;
+}
+.form__input-time {
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #7778B0;
+  color: #fff;
+  background-image: url("/src/assets/icons/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
+}
+.form__place {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "DM Sans" sans-serif;
+}
+.form__time {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "DM Sans" sans-serif;
 }
