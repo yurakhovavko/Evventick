@@ -164,15 +164,6 @@ textarea {
   margin-top: 3rem;
   font-family: "Montserrat", sans-serif;
 }
-.banner__search-box-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #242565;
-}
 .banner__search-box {
   width: 290px;
   border: none;
@@ -185,6 +176,10 @@ textarea {
           transform: translateX(-15%);
 }
 
+.form {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 .form__items {
   display: -webkit-box;
   display: -ms-flexbox;
