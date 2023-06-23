@@ -43,6 +43,7 @@ textarea {
   color: #fff;
   border-radius: 7rem;
   padding: 0.7rem 1.3rem;
+  cursor: pointer;
 }
 
 .banner__button-learn {
@@ -52,6 +53,7 @@ textarea {
   padding: 1.4rem 3rem;
   margin-right: 1.3rem;
   background-color: #F5167E;
+  cursor: pointer;
 }
 
 .banner__button-ticket {
@@ -60,6 +62,7 @@ textarea {
   border: 2px solid;
   border-radius: 7rem;
   padding: 1.3rem 2.8rem;
+  cursor: pointer;
 }
 
 .header {
@@ -107,6 +110,7 @@ textarea {
   color: #fff;
   border-radius: 7rem;
   padding: 0.7rem 1.3rem;
+  cursor: pointer;
 }
 
 .banner__button-learn {
@@ -116,6 +120,7 @@ textarea {
   padding: 1.4rem 3rem;
   margin-right: 1.3rem;
   background-color: #F5167E;
+  cursor: pointer;
 }
 
 .banner__button-ticket {
@@ -124,6 +129,7 @@ textarea {
   border: 2px solid;
   border-radius: 7rem;
   padding: 1.3rem 2.8rem;
+  cursor: pointer;
 }
 
 .banner {
@@ -149,4 +155,6 @@ textarea {
 
 .kpop {
   float: left;
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
