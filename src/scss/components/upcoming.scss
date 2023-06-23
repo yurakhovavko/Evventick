@@ -1,63 +1,67 @@
 .upcoming {
-    // .upcoming__header
+// .upcoming__header
 
-    &__header {
+&__header {
 
-    }
+}
 
-    // .upcoming__title
+// .upcoming__title
 
-    &__title {
-        font-size: 2.5rem;
-        color: #242565; 
-        font-family: 'Montserrat', sans-serif;
-        float: left;
-    }
+&__title {
+font-size: 2.5rem;
+color: #242565; 
+font-family: 'Montserrat', sans-serif;
+float: left;
+}
 
-    // .upcoming__choice
+// .upcoming__choice
 
-    &__choice {
-        display: flex;
-        justify-content: flex-end;
-        font-size: 1rem;
-        align-items: center;
-        padding: 1rem;
-    }
+&__choice {
+display: flex;
+justify-content: flex-end;
+font-size: 1rem;
+align-items: center;
+gap: 1.3rem;
 
-    // .upcoming__weekdays
+}
 
-    &__weekdays {
-    }
+// .upcoming__weekdays
 
-    // .upcoming__type
+&__weekdays {
+}
 
-    &__type {
-    }
+// .upcoming__type
+
+&__type {
+}
 }
 .container {
 }
 .form {
 
-    // .form__input
+// .form__input
 
-    &__upcoming__input {
-        font-family: 'DM Sans', sans-serif;
-        border: none;
-        padding: 1rem 1.5rem;
-        border-radius: 2rem;
-        background-color: #F2F4FF;
+&__upcoming__input {
+font-family: 'DM Sans', sans-serif;
+border: none;
+padding: 1rem 1.3rem;
+border-radius: 2rem;
+background-color: #F2F4FF;
+
+&:focus{
+    outline: 1px solid #b8bac2;
+}
+
+}
 
 
-    }
-    
+// .form__time
 
-    // .form__time
+&__time {
+}
 
-    &__time {
-    }
+// .form__input-time
 
-    // .form__input-time
-
-    &__input-time {
-    }
+&__input-time {
+}
 }

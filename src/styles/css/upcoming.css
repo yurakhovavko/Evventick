@@ -15,12 +15,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem;
+  gap: 1.3rem;
 }
 .form__upcoming__input {
   font-family: "DM Sans", sans-serif;
   border: none;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.3rem;
   border-radius: 2rem;
   background-color: #F2F4FF;
+}
+.form__upcoming__input:focus {
+  outline: 1px solid #b8bac2;
 }
