@@ -132,7 +132,15 @@ textarea {
   cursor: pointer;
 }
 
-.banner-content-box {
+.banner {
+  background-image: url("/src/assets/images/Rectangle 10.png");
+  background-color: #333333;
+  background-size: cover;
+  background-position: center;
+  padding-top: 13rem;
+  min-height: 58rem;
+}
+.banner__content-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,15 +150,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.banner {
-  background-image: url("/src/assets/images/Rectangle 10.png");
-  background-color: #333333;
-  background-size: cover;
-  background-position: center;
-  padding-top: 13rem;
-  min-height: 58rem;
 }
 .banner__title {
   color: #ffffff;

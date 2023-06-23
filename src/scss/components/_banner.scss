@@ -1,8 +1,4 @@
-.banner-content-box {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+
 
 .banner{
 // background-image: url("/src/assets/images/people.png");
@@ -13,7 +9,12 @@ background-position: center;
 padding-top: 13rem;
 min-height:58rem;
 
-
+&__content-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
 
 &__title{
     color: #ffffff;
