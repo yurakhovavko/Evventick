@@ -5,56 +5,44 @@
         min-height: 78px;
         z-index: 15;
     }
-
-    // .upcoming__header
-
-    &__header {
-        
-    }
-
-    // .upcoming__title
-
-    &__title {
-        float: left;
-        font-family: "Montserrat", sans-serif;
-        font-size: 2.5rem;
-        color: #242565;
-    }
-
-    // .upcoming__choice
-
-    &__choice {
-    }
-
-    // .upcoming__weekdays
-
-    &__weekdays {
-    }
-
-    // .upcoming__input
-
-    &__input {
-        color: #1D275F;
+    
+    .navigation {
+    
+        // .navigation__logo
+    
+        &__logo {
+            margin-top: 1rem;
+            float: left;
+        }
+    
+        // .navigation__menu
+    
+        &__menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1rem;
+        }
+    
+        // .navigation__list
+    
+        &__list {
+                display: flex;
+                justify-content: center;
+        padding: 1rem 5rem;
+                gap: 70px;
         font-family: 'DM Sans', sans-serif;
-        border: none;
-        padding: 1rem 1.5rem;
-        border-radius: 2rem;
-        background-color: #F2F4FF;
-        background-image: url('/src/assets/icons/Vector.svg');
-        background-repeat: no-repeat;
-        background-position: right center;
-        padding-right: 20px;
+        }
+    
+        // .navigation__list-item
+    
+        &__list-item {
+        }
+    
+        // .navigation__link
+    
+        &__link {
+        color: $main-color;
+                text-decoration: none;
+        }
     }
-
-    // .upcoming__type
-
-    &__type {
-    }
-
-    // .upcoming__category
-
-    &__category {
-    }
-
-.container {
-}
