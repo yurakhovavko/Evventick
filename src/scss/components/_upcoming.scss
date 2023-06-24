@@ -1,5 +1,5 @@
 .upcoming {
-    background: #FFF;
+    background-color: #f7f7f7;
     // .upcoming__header
 
     &__header {
@@ -36,7 +36,7 @@
         border: none;
         padding: 1rem 1.5rem;
         border-radius: 2rem;
-        background-color: #F2F4FF;
+        background-color: #e3e4ee;
 
         &:focus{
             outline: 1px solid #b8bac2;
@@ -85,7 +85,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.9rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #FFFFFF;
     transition: 0.3s;
     border-radius: 20px;
+
+    &__upcoming__date-text{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -10,6 +10,7 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
+  background-color: #f7f7f7;
 }
 
 img {
@@ -234,7 +235,7 @@ textarea {
 }
 
 .upcoming {
-  background: #FFF;
+  background-color: #f7f7f7;
 }
 .upcoming__header {
   margin-bottom: 5rem;
@@ -260,7 +261,7 @@ textarea {
   border: none;
   padding: 1rem 1.5rem;
   border-radius: 2rem;
-  background-color: #F2F4FF;
+  background-color: #e3e4ee;
 }
 .upcoming__input:focus {
   outline: 1px solid #b8bac2;
@@ -286,9 +287,17 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.9rem;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 20px;
+}
+.card__upcoming__date-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
