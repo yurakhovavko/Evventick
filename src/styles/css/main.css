@@ -260,7 +260,7 @@ textarea {
 .upcoming__title {
   float: left;
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #242565;
 }
 .upcoming__choice {
@@ -326,4 +326,20 @@ textarea {
   margin-top: 1rem;
   margin-right: 1rem;
   margin-left: 1rem;
+}
+
+.brands__header {
+  margin-top: 5rem;
+}
+.brands__header-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #242565;
+}
+.brands__header-description {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "DM Sans", sans-serif;
 }
