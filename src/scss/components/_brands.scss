@@ -22,7 +22,9 @@
 margin: auto;
     }
     &__image-second{
-        margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2rem;
             }
         
 
@@ -34,6 +36,5 @@ margin: auto;
     &__examples-second{
         display: grid;
         grid-template-columns: repeat(4, 1fr); 
-        margin-bottom: 9rem;
     }
 }

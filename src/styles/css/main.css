@@ -352,7 +352,9 @@ textarea {
   margin: auto;
 }
 .brands__image-second {
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2rem;
 }
 .brands__examples-first {
   display: grid;
@@ -362,5 +364,4 @@ textarea {
 .brands__examples-second {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 9rem;
 }
