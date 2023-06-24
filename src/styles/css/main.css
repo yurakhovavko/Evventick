@@ -328,8 +328,12 @@ textarea {
   margin-left: 1rem;
 }
 
+.brands {
+  display: grid;
+}
 .brands__header {
   margin-top: 5rem;
+  margin-bottom: 5.5rem;
 }
 .brands__header-title {
   text-transform: uppercase;
@@ -337,9 +341,18 @@ textarea {
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
   color: #242565;
+  margin-bottom: 1.3rem;
 }
 .brands__header-description {
   text-align: center;
   font-size: 1.2rem;
   font-family: "DM Sans", sans-serif;
+}
+.brands__image {
+  margin: auto;
+}
+.brands__examples {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
 }
