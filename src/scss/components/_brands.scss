@@ -18,12 +18,22 @@
         font-size: 1.2rem;
         font-family: 'DM Sans', sans-serif;
     }
-    &__image{
+    &__image-first{
 margin: auto;
     }
-    &__examples{
+    &__image-second{
+        margin: auto;
+            }
+        
+
+    &__examples-first{
         display: grid;
         grid-template-columns: repeat(5, 1fr); 
-        grid-gap: 20px; 
+        grid-gap: 1rem; 
+    }
+    &__examples-second{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        margin-bottom: 9rem;
     }
 }

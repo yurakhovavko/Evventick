@@ -348,11 +348,19 @@ textarea {
   font-size: 1.2rem;
   font-family: "DM Sans", sans-serif;
 }
-.brands__image {
+.brands__image-first {
   margin: auto;
 }
-.brands__examples {
+.brands__image-second {
+  margin: auto;
+}
+.brands__examples-first {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  grid-gap: 1rem;
+}
+.brands__examples-second {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 9rem;
 }
