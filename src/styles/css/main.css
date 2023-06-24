@@ -233,6 +233,12 @@ textarea {
   font-family: "DM Sans" sans-serif;
 }
 
+.upcoming {
+  background: #FFF;
+}
+.upcoming__header {
+  margin-bottom: 5rem;
+}
 .upcoming__title {
   float: left;
   font-family: "Montserrat", sans-serif;
@@ -258,4 +264,31 @@ textarea {
 }
 .upcoming__input:focus {
   outline: 1px solid #b8bac2;
+}
+.upcoming__cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.upcoming__card-title {
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 1rem;
+}
+.upcoming__card-description {
+  font-size: 0.9rem;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.9rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 20px;
 }
