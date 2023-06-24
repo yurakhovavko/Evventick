@@ -365,3 +365,17 @@ textarea {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+.create {
+  display: grid;
+  background: #EEE1FF;
+}
+.create__header-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.1rem;
+  color: #000000;
+}
+.create__header-description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+}
