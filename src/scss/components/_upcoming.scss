@@ -75,10 +75,15 @@
     // .upcoming__card-description
 
     &__card-description {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-family: 'DM Sans', sans-serif;
         margin-top: 1rem;
         margin-bottom: 2rem;
+    }
+    &__button{
+        margin-top: 5rem;
+        display: block;
+        margin-left: 39rem;
     }
 }
 .card {
@@ -89,8 +94,17 @@
     transition: 0.3s;
     border-radius: 20px;
 
-    &__upcoming__date-text{
-        display: flex;
-        flex-direction: column;
-    }
+}
+
+
+.upcoming__container{
+    display: flex;
+
+}
+
+.upcoming__date-text{
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }

@@ -66,6 +66,14 @@ textarea {
   cursor: pointer;
 }
 
+.upcoming__button {
+  border: 2px solid;
+  color: #3D37F1;
+  border-radius: 7rem;
+  padding: 1.3rem 2.8rem;
+  cursor: pointer;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -133,6 +141,14 @@ textarea {
   cursor: pointer;
 }
 
+.upcoming__button {
+  border: 2px solid;
+  color: #3D37F1;
+  border-radius: 7rem;
+  padding: 1.3rem 2.8rem;
+  cursor: pointer;
+}
+
 .banner {
   background-image: url("/src/assets/images/Rectangle 10.png");
   background-color: #333333;
@@ -170,6 +186,7 @@ textarea {
   border-bottom: 2px solid #7778B0;
   background-color: #242565;
 }
+
 .kpop {
   float: left;
   -webkit-transform: translateX(-15%);
@@ -277,10 +294,15 @@ textarea {
   margin-top: 1rem;
 }
 .upcoming__card-description {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-family: "DM Sans", sans-serif;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+.upcoming__button {
+  margin-top: 5rem;
+  display: block;
+  margin-left: 39rem;
 }
 
 .card {
@@ -292,12 +314,16 @@ textarea {
   transition: 0.3s;
   border-radius: 20px;
 }
-.card__upcoming__date-text {
+
+.upcoming__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+}
+
+.upcoming__date-text {
+  text-align: center;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
