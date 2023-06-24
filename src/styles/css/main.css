@@ -74,6 +74,16 @@ textarea {
   cursor: pointer;
 }
 
+.create__button {
+  margin-top: 2rem;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 1.4rem 8rem;
+  margin-right: 1.3rem;
+  background-color: #F5167E;
+  cursor: pointer;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -146,6 +156,16 @@ textarea {
   color: #3D37F1;
   border-radius: 7rem;
   padding: 1.3rem 2.8rem;
+  cursor: pointer;
+}
+
+.create__button {
+  margin-top: 2rem;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 1.4rem 8rem;
+  margin-right: 1.3rem;
+  background-color: #F5167E;
   cursor: pointer;
 }
 
@@ -303,6 +323,7 @@ textarea {
   margin-top: 5rem;
   display: block;
   margin-left: 39rem;
+  margin-bottom: 5rem;
 }
 
 .card {
@@ -367,13 +388,21 @@ textarea {
 }
 
 .create {
-  display: grid;
   background: #EEE1FF;
+}
+.create__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+}
+.create__header-text {
+  margin-top: 2.2rem;
 }
 .create__header-title {
   font-family: "DM Sans", sans-serif;
   font-size: 2.1rem;
   color: #000000;
+  margin-bottom: 2rem;
 }
 .create__header-description {
   font-family: "DM Sans", sans-serif;

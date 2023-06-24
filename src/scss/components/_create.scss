@@ -1,15 +1,31 @@
 .create{
-    display: grid;
-    background: #EEE1FF;
+background: #EEE1FF;
+
+
+    &__header{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px 0px; 
+    }
+
+    &__header-text{
+        margin-top:2.2rem;
+    }
 
     &__header-title{
         font-family: 'DM Sans', sans-serif;
         font-size: 2.1rem;
         color: #000000;
+        margin-bottom: 2rem;
     }
     &__header-description{
         font-family: 'DM Sans', sans-serif;
         font-size: 1.2rem;
     }
+    
+    &__image{
+    }
+
+ 
 
 }
