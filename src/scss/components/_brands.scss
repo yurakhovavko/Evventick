@@ -1,40 +1,37 @@
 .brands{
-    display: grid;
-    &__header{
-        margin-top: 5rem;
-        margin-bottom: 5.5rem;
-    }
-    &__header-title{
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 2.5rem;
-        font-family: "Montserrat", sans-serif;
-        color: $title-color;
-        margin-bottom: 1.3rem;
-    }
+display: grid;
+&__header{
+margin-top: 5rem;
+margin-bottom: 5.5rem;
+}
+&__header-title{
+text-transform: uppercase;
+text-align: center;
+font-size: 2.5rem;
+font-family: "Montserrat", sans-serif;
+color: $title-color;
+margin-bottom: 1.3rem;
+}
 
-    &__header-description{
-        text-align: center;
-        font-size: 1.2rem;
-        font-family: 'DM Sans', sans-serif;
-    }
-    &__image-first{
+&__header-description{
+text-align: center;
+font-size: 1.2rem;
+font-family: 'DM Sans', sans-serif;
+}
+&__image-first{
 margin: auto;
-    }
-    &__image-second{
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 2rem;
-            }
-        
+}
+&__image-second{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 10rem;
+}
 
-    &__examples-first{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); 
-        grid-gap: 1rem; 
-    }
-    &__examples-second{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); 
-    }
+
+&__examples-first{
+display: grid;
+grid-template-columns: repeat(5, 1fr); 
+grid-gap: 1rem; 
+}
+
 }

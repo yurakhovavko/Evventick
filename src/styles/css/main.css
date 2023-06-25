@@ -379,20 +379,16 @@ textarea {
 .brands__image-second {
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 2rem;
+  margin-left: 10rem;
 }
 .brands__examples-first {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
 }
-.brands__examples-second {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
 
 .create {
-  background-image: url("/src/assets/images/Rectangle 12(7).png");
+  background: #EEE1FF;
 }
 .create__header {
   display: grid;
@@ -412,6 +408,10 @@ textarea {
   font-family: "DM Sans", sans-serif;
   font-size: 1.2rem;
 }
+.create__image {
+  margin-top: -50px;
+}
+
 .blog__header {
   margin-top: 5rem;
   margin-bottom: 5.5rem;

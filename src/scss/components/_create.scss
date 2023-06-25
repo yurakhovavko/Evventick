@@ -1,11 +1,12 @@
 .create{
-background-image: url("/src/assets/images/Rectangle\ 12\(7\).png");
+    background: #EEE1FF;
 
 
     &__header{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     gap: 0px 0px; 
+
     }
 
     &__header-text{
@@ -24,7 +25,9 @@ background-image: url("/src/assets/images/Rectangle\ 12\(7\).png");
     }
     
     &__image{
+        margin-top: -50px;
     }
+
 
  
 
