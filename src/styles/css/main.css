@@ -66,7 +66,7 @@ textarea {
   cursor: pointer;
 }
 
-.upcoming__button {
+.load__button {
   border: 2px solid;
   color: #3D37F1;
   border-radius: 7rem;
@@ -151,7 +151,7 @@ textarea {
   cursor: pointer;
 }
 
-.upcoming__button {
+.load__button {
   border: 2px solid;
   color: #3D37F1;
   border-radius: 7rem;
@@ -303,11 +303,6 @@ textarea {
 .upcoming__input:focus {
   outline: 1px solid #b8bac2;
 }
-.upcoming__cards-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
 .upcoming__card-title {
   font-size: 1rem;
   font-family: "DM Sans", sans-serif;
@@ -319,11 +314,20 @@ textarea {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-.upcoming__button {
+
+.load__button {
   margin-top: 5rem;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 39rem;
   margin-bottom: 5rem;
+}
+
+.cards__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 .card {
@@ -388,7 +392,7 @@ textarea {
 }
 
 .create {
-  background: #EEE1FF;
+  background-image: url("/src/assets/images/Rectangle 12(7).png");
 }
 .create__header {
   display: grid;
@@ -425,8 +429,11 @@ textarea {
   font-family: "DM Sans", sans-serif;
 }
 .blog__card-title {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
   text-align: justify;
-  margin-top: 1.2rem;
+  margin-top: 1.1rem;
   color: #242565;
   font-family: "DM Sans", sans-serif;
   font-size: 1.2rem;
@@ -438,16 +445,9 @@ textarea {
   font-size: 1rem;
   margin-bottom: 1.3rem;
 }
-.blog__cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.blog__card {
-  margin-left: 4rem;
-  margin-bottom: 4.25rem;
-}
 .blog__card-date {
   font-size: 0.9rem;
   font-family: "DM Sans", sans-serif;
   color: #A5A5A5;
+  margin-bottom: 1rem;
 }

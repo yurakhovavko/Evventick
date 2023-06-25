@@ -52,17 +52,7 @@
 
     &__category {
     }
-}
-
-.upcoming {
-
-    // .upcoming__cards-container
-
-    &__cards-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-        grid-gap: 20px; 
-    }
+    
 
     // .upcoming__card-title
 
@@ -80,12 +70,19 @@
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
-    &__button{
-        margin-top: 5rem;
-        display: block;
-        margin-left: 39rem;
-        margin-bottom: 5rem;
-    }
+
+}
+.load__button{
+    margin-top: 5rem;
+    display: flex;
+    margin-left: 39rem;
+    margin-bottom: 5rem;
+}
+
+.cards__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
 }
 .card {
     margin-left: auto;
@@ -94,6 +91,7 @@
     background-color: #FFFFFF;
     transition: 0.3s;
     border-radius: 20px;
+
 
 }
 
