@@ -574,13 +574,14 @@ textarea {
   text-align: center;
   font-size: 1.13rem;
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 1.3rem;
+  padding-bottom: 1.3rem;
+  color: #FEFEFE;
 }
 
 .separator {
-  display: inline-block;
-  height: 1px;
-  width: 170px;
-  background-color: #EC7979;
-  margin-top: 2rem;
+  color: #4C4D8B;
+  margin-top: 7.5rem;
+  margin-left: 14rem;
+  margin-right: 14rem;
+  margin-bottom: 1rem;
 }
