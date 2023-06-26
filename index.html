@@ -10,7 +10,7 @@
 <header class="header">
     <div class="container">
         <a class="header-icon-link" href="#">
-        <img class="navigation__logo" src="./src/assets/icons/Group 29.svg" alt="logo"
+        <img class="navigation__logo" src="./src/assets/icons/logo.svg" alt="logo"
         /></a>
         <nav class="navigation__menu">
         <ul class="navigation__list">
@@ -59,22 +59,20 @@
             <div class="form__items">
 
                 <div class="form__event">
-                    <label class="label" for="event">Search Event</label><br>
+                    <label class="label" id="event">Search Event</label><br>
                     <input name="event" type="text" class="form__input" value="Konser Jazz" />
                 </div>
 
                 <div class="form__place">
-                    <label class="label" for="place">Place</label><br>
+                    <label class="label" id="place">Place</label><br>
                     <input name="place" type="text" class="form__input" value="Indonesia" />
                 </div>
 
                
                 <div class="form__time">
-                    <label class="label" for="time">Time</label><br>
+                    <label class="label" id="time" >Time</label><br>
                     <input name="time" type="text" class="form__input-time" value="Any date" />
                 </div>
-
-                </form>
             </div>
         
         </section>
@@ -167,8 +165,10 @@
                     <img class="brands__image-second" src="/src/assets/icons/brands/zoom.svg" alt="zoom">
                     <img class="brands__image-second" src="/src/assets/icons/brands/uber.svg" alt="uber">
                     <img class="brands__image-second" src="/src/assets/icons/brands/grab.svg" alt="grab">
+                </div>
             </div>
         </section>
+
         <section class="blog">
             <div class="container">
                 <div class="blog__header">
@@ -177,7 +177,7 @@
                 </div>
                 <div class="cards__container">
                     <div class="card">
-                        <img src="/src/assets/images/Rectangle 14.png" alt="card1">
+                        <img src="/src/assets/images/1card.png" alt="card1">
                         <div class="card__container">
                             <div class="upcoming__text">
                         <h3 class="blog__card-title">6 Strategies to Find Your<br> Conference Keynote and<br>Other Speakers</h3>
@@ -187,13 +187,13 @@
                     </div>
                 </div>
                     <div class="card">
-                         <img src="/src/assets/images/Rectangle 14(1).png" alt="card2">
+                         <img src="/src/assets/images/2card.png" alt="card2">
                          <h3 class="blog__card-title">How Successfully Used Paid<br> Marketing to Drive<br> Incremental Ticket Sales</h3>
                          <p class="blog__card-description">We’ll get you directly seated and<br> inside for you to enjoy the show.</p>
                          <p class="blog__card-date">12 Mar - Jhon Doe</p>
                         </div>
                     <div class="card"> 
-                        <img src="/src/assets/images/Rectangle 14(2).png" alt="card3">
+                        <img src="/src/assets/images/3card.png" alt="card3">
                         <h3 class="blog__card-title">Introducing Workspaces:<br> Work smarter, not harder<br> with new navigation</h3>
                         <p class="blog__card-description">We’ll get you directly seated and<br> inside for you to enjoy the show.</p>
                         <p class="blog__card-date">12 Mar - Jhon Doe</p>
@@ -202,79 +202,82 @@
                 <button class="load__button" type="button">Load more</button>
                 </div>
         </section>
-        <footer class="footer">
-            <div class="footer__container">
-              <div class="footer__text-box">
-                <img
-                  class="footer__logo"
-                  src="./src/assets/icons/Group 29.svg"
-                  alt="logo"
-                />
-                <p class="footer__description">
-                  Eventick is a global self-service ticketing platform<br />
-                  for live experiences that allows anyone to create,<br />
-                  share, find and attend events that fuel their<br />
-                  passions and enrich their lives.
-                </p>
-              </div>
-              <address class="footer__address">
-                <div class="footer__icons-content">
-                  <a class="footer__icon-link" href="#"
-                    ><img
-                      class="footer__icons"
-                      src="./src/assets/icons/footer/facebook.svg"
-                      alt="facebook-icon"
-                  /></a>
-      
-                  <a class="footer__icon-link" href="#"
-                    ><img
-                      class="footer__icons"
-                      src="./src/assets/icons/footer/twitter.svg"
-                      alt="twitter-icon"
-                  /></a>
-      
-                  <a class="footer__icon-link" href="#"
-                    ><img
-                      class="footer__icons"
-                      src="./src/assets/icons/footer/linkedin.svg"
-                      alt="linkedin-icon"
-                  /></a>
-                </div>
-              </address>
-              <div class="footer__content">
-                <div class="footer__marketplace">
-                  <h3 class="footer__title">Plan Events</h3>
-                  <a class="footer__link" href="#">Create and Set Up</a>
-                  <a class="footer__link" href="#">Sell Tickets</a>
-                  <a class="footer__link" href="#">Online RSVP</a>
-                  <a class="footer__link" href="#">Online Events</a>
-                </div>
-                <div class="footer__account">
-                  <h3 class="footer__title">Eventick</h3>
-                  <a class="footer__link" href="#">Create and Set Up</a>
-                  <a class="footer__link" href="#">Sell Tickets</a>
-                  <a class="footer__link" href="#">Online RSVP</a>
-                  <a class="footer__link" href="#">Online Events</a>
-                </div>
-      
-                <div class="footer__contact">
-                  <h3 class="footer__title">Stay In The Loop</h3>
-                  <p class="footer__description">
-                    Join our mailing list to stay in the loop with our newest<br> for
-                    Event and concert
-                  </p>
-                  <input
-                    placeholder="Enter your email address"
-                    type="email"
-                    value=""
-                  />
-                </div>
-              </div>
-              <!-- <div class="footer-copyright">
-                <h3 class="footer">Copyright © 2022 Avi Yansah</h3>
-              </div> -->
-            </div>
-          </footer>
     </main>
+    <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__text-box">
+            <img
+              class="footer__logo"
+              src="./src/assets/icons/logo.svg"
+              alt="logo"
+            />
+            <p class="footer__description">
+              Eventick is a global self-service ticketing platform<br />
+              for live experiences that allows anyone to create,<br />
+              share, find and attend events that fuel their<br />
+              passions and enrich their lives.
+            </p>
+            <address class="footer__address">
+                <a class="footer__icon-link" href="#"
+                  ><img
+                    class="footer__icons"
+                    src="./src/assets/icons/footer/facebook.svg"
+                    alt="facebook-icon"
+                /></a>
+    
+                <a class="footer__icon-link" href="#"
+                  ><img
+                    class="footer__icons"
+                    src="./src/assets/icons/footer/twitter.svg"
+                    alt="twitter-icon"
+                /></a>
+    
+                <a class="footer__icon-link" href="#"
+                  ><img
+                    class="footer__icons"
+                    src="./src/assets/icons/footer/linkedin.svg"
+                    alt="linkedin-icon"
+                /></a>
+            </address>
+          </div>
+          
+          <div class="footer__content">
+            <div class="footer__marketplace">
+              <h3 class="footer__title">Plan Events</h3>
+              <a class="footer__link" href="#">Create and Set Up</a>
+              <a class="footer__link" href="#">Sell Tickets</a>
+              <a class="footer__link" href="#">Online RSVP</a>
+              <a class="footer__link" href="#">Online Events</a>
+            </div>
+            <div class="footer__account">
+              <h3 class="footer__title">Eventick</h3>
+              <a class="footer__link" href="#">Create and Set Up</a>
+              <a class="footer__link" href="#">Sell Tickets</a>
+              <a class="footer__link" href="#">Online RSVP</a>
+              <a class="footer__link" href="#">Online Events</a>
+            </div>
+  
+            <div class="footer__contact">
+              <h3 class="footer__title">Stay In The Loop</h3>
+              <p class="footer__description">
+                Join our mailing list to stay in the loop with our newest<br> for
+                Event and concert
+              </p>
+              <input 
+              class="footer__input"
+              placeholder="Enter your email address"
+              type="email"
+              value=""
+            />
+            <input class="footer__input-button" type="submit" value="Subscribe Now">
+            </div>
+          </div>
+         
+        </div>
+        <div class="footer__copyright">
+            <hr class="separator">
+            <h3 class="footer__copyright-text">Copyright © 2022 Avi Yansah</h3>
+          </div>
+      </footer>
 </body> 
 </html>
