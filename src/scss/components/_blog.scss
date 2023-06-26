@@ -26,7 +26,56 @@ font-family: 'DM Sans', sans-serif;
 font-size: 1.2rem;
 margin-bottom: 1.3rem;
 
-}
+}.blog{
+    &__header{
+        margin-top: 5rem;
+        margin-bottom: 5.5rem;
+    }
+    &__header-title{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Montserrat", sans-serif;
+        color: $title-color;
+        margin-bottom: 1.3rem;
+    }
+    
+    &__header-description{
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    &__card-title{
+    max-width: fit-content;
+    text-align: justify;
+    margin-top: 1.1rem;
+    color: $title-color;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.3rem;
+    
+    }
+    
+    &__card-description{
+        text-align: justify;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+    
+    }
+    
+    
+    &__card-date{
+        font-size: 0.9rem;
+        font-family: 'DM Sans', sans-serif;
+        color: #A5A5A5; 
+        margin-bottom: 1rem;
+    }
+    
+    }
+    
+    
+    
 
 &__card-description{
     text-align: justify;
@@ -45,5 +94,6 @@ margin-bottom: 1.3rem;
 }
 
 }
+
 
 
