@@ -200,7 +200,7 @@ textarea {
 }
 
 .banner {
-  background-image: url("./src/assets/images/Rectangle 10.png"), url("./src/assets/images/people.png");
+  background-image: url("/src/assets/images/Rectangle 10.png"), url("/src/assets/images/people.png");
   background-size: cover;
   background-position: center;
   padding-top: 13rem;
@@ -728,6 +728,12 @@ textarea {
   display: flex;
   gap: 7rem;
   margin-top: 4rem;
+}
+@media (max-width: 428px) {
+  .footer__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .footer__description {
