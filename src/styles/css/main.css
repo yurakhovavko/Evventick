@@ -294,12 +294,14 @@ textarea {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
 @media (max-width: 320px) {
   .form {
     -webkit-transform: translateY(-20%);
             transform: translateY(-20%);
   }
 }
+
 .form__items {
   display: -webkit-box;
   display: -ms-flexbox;
