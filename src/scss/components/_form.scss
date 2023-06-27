@@ -1,6 +1,10 @@
 .form {
     transform: translateY(-50%); 
     // .form  background: #ffffff;
+    @media(max-width:320px){
+        transform: translateY(-20%); 
+
+    }
 
     &__items {
         display: flex;
@@ -11,7 +15,7 @@
         border-radius: 25px;
         padding: 2rem 3rem;
         justify-content: space-around;
-        @media(max-width:420px){
+        @media(max-width:428px){
             display: flex;
             flex-direction: column;
         }
@@ -48,7 +52,7 @@ color: #fff;
 @media(max-width:768px){
     max-width: 9.3rem;
 }
-@media(max-width:420px){
+@media(max-width:428px){
     max-width: 20rem;
     margin-bottom: 2rem;
 }
@@ -74,7 +78,7 @@ color: #fff;
         @media(max-width:768px){
             max-width: 9.3rem;
         }
-        @media(max-width:420px){
+        @media(max-width:428px){
             max-width: 20rem;
 
         }

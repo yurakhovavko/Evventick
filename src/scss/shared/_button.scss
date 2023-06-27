@@ -14,6 +14,10 @@
     margin-right: 1.3rem;
     background-color:#F5167E;
     cursor: pointer; 
+    @media(max-width:320px){
+        margin: auto;
+        margin-top: 2rem;
+    }
 }
 
 .banner__button-ticket{
@@ -23,6 +27,9 @@
     border-radius:7rem;
     padding:1.2rem 2.65rem; 
     cursor: pointer;  
+    @media(max-width:320px){
+
+    }
 }
 
 .load__button{
