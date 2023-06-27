@@ -67,6 +67,7 @@
     // .footer__contact
 
     &__contact {
+   margin-top: 5rem;
     }
 
     // .footer__contact-description
@@ -130,4 +131,8 @@
     margin-left: 14rem;
     margin-right: 14rem;
     margin-bottom: 1rem;
+    @media(max-width:768px){
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
 }

@@ -6,6 +6,12 @@
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     gap: 0px 0px; 
+
+
+    @media(max-width:1187px){
+        display: block;
+        text-align: center;
+    }
     @media(max-width:768px){
         display: block;
         text-align: center;
@@ -35,6 +41,7 @@
         @media(max-width:768px){
             display: none;
         }
+        
     }
 
 

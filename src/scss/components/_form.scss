@@ -11,6 +11,10 @@
         border-radius: 25px;
         padding: 2rem 3rem;
         justify-content: space-around;
+        @media(max-width:420px){
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .label{
@@ -35,8 +39,18 @@ border: none;
 border-bottom: 2px solid #7778B0;
 color: #fff;
 
+
+
+@media(max-width:886px){
+    max-width: 9.3rem;
+}
+
 @media(max-width:768px){
     max-width: 9.3rem;
+}
+@media(max-width:420px){
+    max-width: 20rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -52,8 +66,17 @@ color: #fff;
         background-image: url('/src/assets/icons/Vector.svg');
         background-repeat: no-repeat;
         background-position: right center;
+
+        @media(max-width:886px){
+            max-width: 9.3rem;
+        }
+
         @media(max-width:768px){
             max-width: 9.3rem;
+        }
+        @media(max-width:420px){
+            max-width: 20rem;
+
         }
 
         
