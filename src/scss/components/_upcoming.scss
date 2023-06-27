@@ -38,11 +38,12 @@
             justify-content: center;
         }
         @media(max-width:768px){
-            justify-content: center;
+            justify-content: center;     
         }
-        @media(max-width:428px){
+        @media(max-width:764px){
             flex-wrap: wrap;
         }
+        
     }
 
 
