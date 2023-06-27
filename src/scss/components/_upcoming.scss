@@ -1,0 +1,120 @@
+.upcoming {
+    background-color: #f7f7f7;
+    // .upcoming__header
+
+    &__header {
+        margin-bottom: 5rem;
+    }
+
+    // .upcoming__title
+
+    &__title {
+        float: left;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        color: $secondary-color;
+
+        @media(max-width:1184px){
+            float: none;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        @media(max-width:768px){
+            float: none;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    }
+
+    // .upcoming__choice
+
+    &__choice {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1.3rem;
+
+        @media(max-width:1184px){
+            justify-content: center;
+        }
+        @media(max-width:768px){
+            justify-content: center;
+        }
+        @media(max-width:428px){
+            flex-wrap: wrap;
+        }
+    }
+
+
+
+    &__input {
+        color: $secondary-color;
+        font-family: 'DM Sans', sans-serif;
+        border: none;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+        background-color: #e3e4ee;
+        background-image: url('/src/assets/icons/Vector\(3\).svg');
+        background-repeat: no-repeat;
+        background-position: center right 20px;
+
+        &:focus{
+            outline: 1px solid #b8bac2;
+        }
+    }
+
+
+    &__card-title {
+        font-size: 1rem;
+        font-family: 'DM Sans', sans-serif;
+        margin-top: 1rem;
+    }
+
+
+
+    &__card-description {
+        font-size: 0.8rem;
+        font-family: 'DM Sans', sans-serif;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+.load__button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.cards__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+    @media(max-width:428px){
+        grid-template-columns:repeat(1,1fr);
+    }
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.9rem;
+    background-color: #FFFFFF;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+
+.upcoming__container{
+    display: flex;
+
+}
+
+.upcoming__date-text{
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,43 @@
+.brands{
+display: grid;
+&__header{
+margin-top: 5rem;
+margin-bottom: 5.5rem;
+}
+&__header-title{
+text-transform: uppercase;
+text-align: center;
+font-size: 2.5rem;
+font-family: "Montserrat", sans-serif;
+color: $secondary-color;
+margin-bottom: 1.3rem;
+}
+
+&__header-description{
+text-align: center;
+font-size: 1.2rem;
+font-family: 'DM Sans', sans-serif;
+}
+&__image-first{
+margin: auto;
+
+}
+&__image-second{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 10rem;
+@media(max-width:768px){
+    margin: auto;  
+   }
+}
+
+
+&__examples-first{
+display: grid;
+grid-template-columns: repeat(5, 1fr); 
+grid-gap: 1rem; 
+@media(max-width:768px){
+ grid-template-columns: repeat(3,2fr);   
+}
+}
+}
