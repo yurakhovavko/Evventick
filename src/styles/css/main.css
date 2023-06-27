@@ -294,14 +294,12 @@ textarea {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-
 @media (max-width: 320px) {
   .form {
     -webkit-transform: translateY(-20%);
             transform: translateY(-20%);
   }
 }
-
 .form__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -730,6 +728,12 @@ textarea {
   display: flex;
   gap: 7rem;
   margin-top: 4rem;
+}
+@media (max-width: 428px) {
+  .footer__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .footer__description {
