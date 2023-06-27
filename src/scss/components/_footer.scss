@@ -69,7 +69,9 @@
         display: flex;
         gap: 7rem;
         margin-top: 4rem;
-
+        @media(max-width:428px){
+            flex-direction: column;
+        }
     }
 }
 
