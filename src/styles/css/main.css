@@ -200,7 +200,7 @@ textarea {
 }
 
 .banner {
-  background-image: url("/src/assets/images/Rectangle 10.png"), url("/src/assets/images/people.png");
+  background-image: url("./src/assets/images/Rectangle 10.png"), url("./src/assets/images/people.png");
   background-size: cover;
   background-position: center;
   padding-top: 13rem;
@@ -294,14 +294,12 @@ textarea {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-
 @media (max-width: 320px) {
   .form {
     -webkit-transform: translateY(-20%);
             transform: translateY(-20%);
   }
 }
-
 .form__items {
   display: -webkit-box;
   display: -ms-flexbox;
