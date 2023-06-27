@@ -7,15 +7,15 @@
     grid-template-columns: 1fr 1fr; 
     gap: 0px 0px; 
     @media(max-width:768px){
-        display: grid; 
-    grid-template-columns: 1fr; 
+        display: block;
+        text-align: center;
     }
+   
     }
 
     &__header-text{
         margin-top:2.2rem;
-        
-        
+
     }
 
     &__header-title{
@@ -27,6 +27,7 @@
     &__header-description{
         font-family: 'DM Sans', sans-serif;
         font-size: 1.2rem;
+
     }
     
     &__image{

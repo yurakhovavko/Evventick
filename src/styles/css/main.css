@@ -88,6 +88,11 @@ textarea {
   background-color: #F5167E;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .create__button {
+    margin-bottom: 1rem;
+  }
+}
 
 .header {
   position: fixed;
@@ -177,6 +182,11 @@ textarea {
   margin-right: 1.3rem;
   background-color: #F5167E;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .create__button {
+    margin-bottom: 1rem;
+  }
 }
 
 .banner {
@@ -446,10 +456,20 @@ textarea {
   margin-bottom: auto;
   margin-left: 10rem;
 }
+@media (max-width: 768px) {
+  .brands__image-second {
+    margin: auto;
+  }
+}
 .brands__examples-first {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
+}
+@media (max-width: 768px) {
+  .brands__examples-first {
+    grid-template-columns: repeat(3, 2fr);
+  }
 }
 
 .create {
@@ -462,8 +482,8 @@ textarea {
 }
 @media (max-width: 768px) {
   .create__header {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    text-align: center;
   }
 }
 .create__header-text {

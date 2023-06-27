@@ -20,11 +20,15 @@ font-family: 'DM Sans', sans-serif;
 }
 &__image-first{
 margin: auto;
+
 }
 &__image-second{
 margin-top: auto;
 margin-bottom: auto;
 margin-left: 10rem;
+@media(max-width:768px){
+    margin: auto;  
+   }
 }
 
 
@@ -32,5 +36,8 @@ margin-left: 10rem;
 display: grid;
 grid-template-columns: repeat(5, 1fr); 
 grid-gap: 1rem; 
+@media(max-width:768px){
+ grid-template-columns: repeat(3,2fr);   
+}
 }
 }
