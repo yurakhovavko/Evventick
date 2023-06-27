@@ -1,19 +1,30 @@
 
 
 .banner{
-// background-image: url("/src/assets/images/people.png");
-background-image: url("/src/assets/images/Rectangle\ 10.png");
-background-color: #333333;
+background-image: url('/src/assets/images/Rectangle\ 10.png'), url('/src/assets/images/people.png');
 background-size: cover;
 background-position: center;
 padding-top: 13rem;
 min-height:58rem;
 
+
 &__content-box {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+
+    @media(max-width:1024px) {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    @media(max-width:768px) {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      
+    }
   }
 
 &__title{
@@ -40,16 +51,25 @@ min-height:58rem;
     background-color: #242565;
 }
 
+&__image{
+  float: left;
+  transform: translateX(-20%);
+  margin-top: 7rem;
 
 
+  @media(max-width:1024px) {
+    display: none;
+  }
 
+  @media(max-width:768px) {
+    display: none;
+  }
 
 }
 
-.kpop{
-    float: left;
-    transform: translateX(-15%);
 }
+
+
 
 
 

@@ -21,7 +21,7 @@
     color: #fff;
     border: 2px solid;
     border-radius:7rem;
-    padding:1.3rem 2.8rem; 
+    padding:1.2rem 2.65rem; 
     cursor: pointer;  
 }
 
@@ -30,7 +30,12 @@
     color: #3D37F1;
     border-radius:7rem;
     padding:1.3rem 2.8rem;
-    cursor: pointer;    
+    cursor: pointer;   
+}
+
+.load__button:hover{
+    color: #fff;
+    background-color: #3430b8; 
 }
 
 .create__button{

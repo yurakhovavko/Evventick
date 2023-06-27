@@ -8,14 +8,12 @@
     
     .navigation {
     
-        // .navigation__logo
     
         &__logo {
             margin-top: 1rem;
             float: left;
         }
     
-        // .navigation__menu
     
         &__menu {
         display: flex;
@@ -24,7 +22,6 @@
         padding: 1rem;
         }
     
-        // .navigation__list
     
         &__list {
                 display: flex;
@@ -46,3 +43,10 @@
                 text-decoration: none;
         }
     }
+
+
+
+
+  
+  
+
