@@ -20,9 +20,10 @@ font-family: 'DM Sans', sans-serif;
 }
 &__image-first{
 margin: auto;
-animation: bounce;
 
 }
+
+
 &__image-second{
 margin-top: auto;
 margin-bottom: auto;
@@ -35,6 +36,21 @@ margin-left: 10rem;
 
 &__examples-first{
 @include grid-columns;
+animation: bounce 1s linear;
+@keyframes bounce {
+    20%,50%,80%, to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}
 @media(max-width:933px){
     grid-template-columns: repeat(3,2fr);   
    }
