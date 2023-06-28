@@ -84,6 +84,23 @@
 
 }
 
+.load__button{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #3D37F1;
+    border: 2px solid #3D37F1;
+    border-radius: 7rem;
+    cursor: pointer;
+    padding: 1.3rem 2.8rem;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        color: #fff;
+        background-color: #3430b8;
+    }
+}
 
 
 .date{
@@ -95,6 +112,7 @@
     grid-template-columns: repeat(3, 1fr); 
     grid-gap: 20px; 
     grid-template-rows: repat(auto-fit,max-min 343px,1fr);
+    margin-bottom: 4rem;
     @media(max-width:428px){
         grid-template-columns:repeat(1,1fr);
     }

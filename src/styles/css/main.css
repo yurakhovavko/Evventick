@@ -72,11 +72,22 @@ textarea {
   cursor: pointer;
 }
 .load__button {
-  border: 2px solid;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.1rem;
   color: #3D37F1;
+  border: 2px solid #3D37F1;
   border-radius: 7rem;
-  padding: 1.3rem 2.8rem;
   cursor: pointer;
+  padding: 1.3rem 2.8rem;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+  display: block;
+}
+.load__button:hover {
+  color: #fff;
+  background-color: #3430b8;
 }
 
 .create__button {
@@ -226,11 +237,22 @@ textarea {
   cursor: pointer;
 }
 .load__button {
-  border: 2px solid;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.1rem;
   color: #3D37F1;
+  border: 2px solid #3D37F1;
   border-radius: 7rem;
-  padding: 1.3rem 2.8rem;
   cursor: pointer;
+  padding: 1.3rem 2.8rem;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+  display: block;
+}
+.load__button:hover {
+  color: #fff;
+  background-color: #3430b8;
 }
 
 .create__button {
@@ -252,7 +274,7 @@ textarea {
   background-image: url("/src/assets/images/gradient.png"), url("/src/assets/images/people.png");
   background-size: cover;
   background-position: center;
-  padding-top: 13rem;
+  padding-top: 5rem;
   min-height: 58rem;
 }
 .banner__content-box {
@@ -525,6 +547,24 @@ textarea {
   margin-bottom: 2rem;
 }
 
+.load__button {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #3D37F1;
+  border: 2px solid #3D37F1;
+  border-radius: 7rem;
+  cursor: pointer;
+  padding: 1.3rem 2.8rem;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.load__button:hover {
+  color: #fff;
+  background-color: #3430b8;
+}
+
 .date {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -535,6 +575,7 @@ textarea {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   grid-template-rows: repat(auto-fit, max-min 343px, 1fr);
+  margin-bottom: 4rem;
 }
 @media (max-width: 428px) {
   .cards__container {
@@ -649,6 +690,7 @@ textarea {
 
 .create {
   background: #EEE1FF;
+  margin-top: 4rem;
 }
 .create__header {
   display: grid;
