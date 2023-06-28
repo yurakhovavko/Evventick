@@ -80,20 +80,21 @@
         margin-bottom: 2rem;
     }
 
-    &__text{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
+
 
 }
 
 
 
-
+.date{
+    grid-column-start:2;
+    grid-column-end:3 ;
+}
 .cards__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-gap: 20px; 
+    grid-template-rows: repat(auto-fit,max-min 343px,1fr);
     @media(max-width:428px){
         grid-template-columns:repeat(1,1fr);
     }
