@@ -249,7 +249,7 @@ textarea {
 }
 
 .banner {
-  background-image: url("./src/assets/images/Rectangle 10.png"), url("./src/assets/images/people.png");
+  background-image: url("/src/assets/images/gradient.png"), url("/src/assets/images/people.png");
   background-size: cover;
   background-position: center;
   padding-top: 13rem;
@@ -525,17 +525,16 @@ textarea {
   margin-bottom: 2rem;
 }
 
-.load__button {
-  margin: 0 auto;
-  display: block;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
+.date {
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .cards__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  grid-template-rows: repat(auto-fit, max-min 343px, 1fr);
 }
 @media (max-width: 428px) {
   .cards__container {
@@ -603,6 +602,44 @@ textarea {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
+  -webkit-animation: bounce 1s linear;
+          animation: bounce 1s linear;
+}
+@-webkit-keyframes bounce {
+  20%, 50%, 80%, to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  70% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  90% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+}
+@keyframes bounce {
+  20%, 50%, 80%, to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  70% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  90% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
 }
 @media (max-width: 933px) {
   .brands__examples-first {
