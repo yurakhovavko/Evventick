@@ -604,7 +604,7 @@ textarea {
   margin-bottom: auto;
   margin-left: 10rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 933px) {
   .brands__image-second {
     margin: auto;
   }
@@ -614,7 +614,7 @@ textarea {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 933px) {
   .brands__examples-first {
     grid-template-columns: repeat(3, 2fr);
   }
@@ -750,6 +750,8 @@ textarea {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footer {
@@ -767,7 +769,6 @@ textarea {
   color: #fff;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
-  margin-bottom: 2rem;
 }
 .footer__link {
   display: -webkit-box;
@@ -779,7 +780,16 @@ textarea {
   font-family: "DM Sans", sans-serif;
 }
 .footer__contact {
-  margin-top: 5rem;
+  margin-top: 4rem;
+}
+@media (max-width: 768px) {
+  .footer__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .footer__content {
   display: -webkit-box;
@@ -788,15 +798,6 @@ textarea {
   gap: 7rem;
   margin-top: 4rem;
 }
-@media (max-width: 428px) {
-  .footer__content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 .footer__description {
   color: #fff;
   font-family: "DM Sans", sans-serif;
@@ -804,7 +805,6 @@ textarea {
   line-height: 1.7rem;
   margin-top: 1rem;
 }
-
 .footer__input {
   border: none;
   width: 100%;
@@ -813,7 +813,6 @@ textarea {
   border-radius: 7rem;
   margin-top: 1rem;
 }
-
 .footer__input-button {
   position: relative;
   float: right;
@@ -829,7 +828,16 @@ textarea {
   margin-top: -3.5rem;
   margin-right: 0.6rem;
 }
-
+@media (max-width: 768px) {
+  .footer__input-button {
+    border: none;
+    width: 100%;
+    height: 4rem;
+    padding-left: 2rem;
+    border-radius: 7rem;
+    margin-top: 1rem;
+  }
+}
 .footer__copyright-text {
   font-family: "Raleway", sans-serif;
   text-align: center;
