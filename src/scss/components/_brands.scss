@@ -20,6 +20,7 @@ font-family: 'DM Sans', sans-serif;
 }
 &__image-first{
 margin: auto;
+animation: bounce;
 
 }
 &__image-second{
@@ -33,9 +34,7 @@ margin-left: 10rem;
 
 
 &__examples-first{
-display: grid;
-grid-template-columns: repeat(5, 1fr); 
-grid-gap: 1rem; 
+@include grid-columns;
 @media(max-width:933px){
     grid-template-columns: repeat(3,2fr);   
    }
