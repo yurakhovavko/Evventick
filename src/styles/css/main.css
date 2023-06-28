@@ -79,11 +79,6 @@ textarea {
   cursor: pointer;
 }
 
-.load__button:hover {
-  color: #fff;
-  background-color: #3430b8;
-}
-
 .create__button {
   margin-top: 1rem;
   color: #fff;
@@ -123,6 +118,11 @@ textarea {
           align-items: center;
   padding: 1rem;
 }
+@media (max-width: 836px) {
+  .navigation__menu {
+    display: none;
+  }
+}
 .navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,6 +137,60 @@ textarea {
 .navigation__link {
   color: #fff;
   text-decoration: none;
+}
+
+.menu__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  position: fixed;
+  right: 15px;
+  top: 35px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+  display: none;
+}
+@media (max-width: 836px) {
+  .menu__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    position: fixed;
+    right: 15px;
+    top: 35px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
 }
 
 .header-button {
@@ -177,11 +231,6 @@ textarea {
   border-radius: 7rem;
   padding: 1.3rem 2.8rem;
   cursor: pointer;
-}
-
-.load__button:hover {
-  color: #fff;
-  background-color: #3430b8;
 }
 
 .create__button {
@@ -444,7 +493,7 @@ textarea {
             justify-content: center;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 764px) {
   .upcoming__choice {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -545,7 +594,7 @@ textarea {
   margin-bottom: auto;
   margin-left: 10rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 933px) {
   .brands__image-second {
     margin: auto;
   }
@@ -555,7 +604,7 @@ textarea {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 933px) {
   .brands__examples-first {
     grid-template-columns: repeat(3, 2fr);
   }
@@ -691,6 +740,8 @@ textarea {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footer {
@@ -708,7 +759,6 @@ textarea {
   color: #fff;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
-  margin-bottom: 2rem;
 }
 .footer__link {
   display: -webkit-box;
@@ -720,7 +770,16 @@ textarea {
   font-family: "DM Sans", sans-serif;
 }
 .footer__contact {
-  margin-top: 5rem;
+  margin-top: 4rem;
+}
+@media (max-width: 768px) {
+  .footer__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .footer__content {
   display: -webkit-box;
@@ -729,13 +788,6 @@ textarea {
   gap: 7rem;
   margin-top: 4rem;
 }
-@media (max-width: 428px) {
-  .footer__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
 .footer__description {
   color: #fff;
   font-family: "DM Sans", sans-serif;
@@ -743,7 +795,6 @@ textarea {
   line-height: 1.7rem;
   margin-top: 1rem;
 }
-
 .footer__input {
   border: none;
   width: 100%;
@@ -752,7 +803,6 @@ textarea {
   border-radius: 7rem;
   margin-top: 1rem;
 }
-
 .footer__input-button {
   position: relative;
   float: right;
@@ -768,7 +818,16 @@ textarea {
   margin-top: -3.5rem;
   margin-right: 0.6rem;
 }
-
+@media (max-width: 768px) {
+  .footer__input-button {
+    border: none;
+    width: 100%;
+    height: 4rem;
+    padding-left: 2rem;
+    border-radius: 7rem;
+    margin-top: 1rem;
+  }
+}
 .footer__copyright-text {
   font-family: "Raleway", sans-serif;
   text-align: center;
