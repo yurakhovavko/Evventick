@@ -539,13 +539,6 @@ textarea {
             justify-content: center;
   }
 }
-@media (max-width: 768px) {
-  .upcoming__choice {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 @media (max-width: 764px) {
   .upcoming__choice {
     -ms-flex-wrap: wrap;
