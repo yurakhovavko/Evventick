@@ -275,6 +275,16 @@ textarea {
   background-position: center;
   min-height: 58rem;
 }
+@media (max-width: 1246px) {
+  .banner {
+    min-height: 40rem;
+  }
+}
+@media (max-width: 428px) {
+  .banner {
+    margin-bottom: 9.4rem;
+  }
+}
 .banner__content-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,6 +327,11 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+@media (max-width: 1246px) {
+  .banner__content-text {
+    margin-top: 5rem;
   }
 }
 .banner__title {
@@ -365,8 +380,8 @@ textarea {
 }
 @media (max-width: 320px) {
   .form {
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
+    -webkit-transform: none;
+            transform: none;
   }
 }
 .form__items {
@@ -393,6 +408,7 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    border-radius: 0%;
   }
 }
 .form .label {

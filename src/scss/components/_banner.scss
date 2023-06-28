@@ -5,6 +5,12 @@ background-image: url('/src/assets/images/gradient.png'),url('/src/assets/images
 background-size: cover;
 background-position: center;
 min-height:58rem;
+@media(max-width:1246px){
+  min-height: 40rem;
+}
+@media(max-width:428px){
+  margin-bottom: 9.4rem;
+}
 
 
 &__content-box {
@@ -31,6 +37,14 @@ min-height:58rem;
       align-items: center;
       
     }
+  }
+
+
+  &__content-text{
+    @media(max-width:1246px){
+      margin-top:5rem;
+    }
+
   }
 
 &__title{
