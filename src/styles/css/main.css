@@ -474,7 +474,7 @@ textarea {
   border: none;
   border-bottom: 2px solid #7778B0;
   color: #fff;
-  background-image: url("/src/assets/icons/Vector.svg");
+  background-image: url("./src/assets/icons/Vector.svg");
   background-repeat: no-repeat;
   background-position: right center;
 }
