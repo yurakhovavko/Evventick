@@ -79,11 +79,6 @@ textarea {
   cursor: pointer;
 }
 
-.load__button:hover {
-  color: #fff;
-  background-color: #3430b8;
-}
-
 .create__button {
   margin-top: 1rem;
   color: #fff;
@@ -236,11 +231,6 @@ textarea {
   border-radius: 7rem;
   padding: 1.3rem 2.8rem;
   cursor: pointer;
-}
-
-.load__button:hover {
-  color: #fff;
-  background-color: #3430b8;
 }
 
 .create__button {
