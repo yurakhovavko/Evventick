@@ -80,15 +80,15 @@
         margin-bottom: 2rem;
     }
 
+    &__text{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
 }
 
 
-.load__button{
-    margin: 0 auto;
-    display: block;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-}
+
 
 .cards__container {
     display: grid;
