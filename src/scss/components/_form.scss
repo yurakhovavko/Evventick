@@ -16,6 +16,10 @@
         border-radius: 25px;
         padding: 2rem 3rem;
         justify-content: space-around;
+        @media(max-width:554px){
+            display: flex;
+            flex-direction: column;
+        }
         @media(max-width:428px){
             display: flex;
             flex-direction: column;
