@@ -3,9 +3,6 @@
     transform: translateY(-50%); 
     // .form  background: #ffffff;
 
-    @media(max-width:320px){
-        transform:none;
-    }
 
     &__items {
         display: flex;

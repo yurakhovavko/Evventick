@@ -270,7 +270,7 @@ textarea {
 }
 
 .banner {
-  background-image: url("/src/assets/images/gradient.png"), url("/src/assets/images/people.png");
+  background-image: url("../../assets/images/gradient.png"), url("../../assets/images/people.png");
   background-size: cover;
   background-position: center;
   min-height: 58rem;
@@ -377,12 +377,6 @@ textarea {
 .form {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-}
-@media (max-width: 320px) {
-  .form {
-    -webkit-transform: none;
-            transform: none;
-  }
 }
 .form__items {
   display: -webkit-box;
