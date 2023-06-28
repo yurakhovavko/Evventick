@@ -4,6 +4,7 @@
 background-image: url('../../assets/images/gradient.png'),url('../../assets/images/people.png');
 background-size: cover;
 background-position: center;
+ background-color: dimgray;
 min-height:58rem;
 @media(max-width:1246px){
   min-height: 40rem;
@@ -17,6 +18,7 @@ min-height:58rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
 
     @media(max-width:1246px) {
       text-align: center;
@@ -41,10 +43,10 @@ min-height:58rem;
 
 
   &__content-text{
+  
     @media(max-width:1246px){
       margin-top:5rem;
     }
-
   }
 
 &__title{

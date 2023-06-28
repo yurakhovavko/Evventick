@@ -62,6 +62,10 @@ textarea {
     margin-top: 2rem;
   }
 }
+.banner__button-learn:hover {
+  color: #fff;
+  background-color: #a00d51;
+}
 
 .banner__button-ticket {
   margin-top: 2rem;
@@ -71,6 +75,11 @@ textarea {
   padding: 1.2rem 2.65rem;
   cursor: pointer;
 }
+.banner__button-ticket:hover {
+  color: #fff;
+  background-color: #3430b8;
+}
+
 .load__button {
   font-family: "DM Sans", sans-serif;
   font-size: 1.1rem;
@@ -226,6 +235,10 @@ textarea {
     margin-top: 2rem;
   }
 }
+.banner__button-learn:hover {
+  color: #fff;
+  background-color: #a00d51;
+}
 
 .banner__button-ticket {
   margin-top: 2rem;
@@ -235,6 +248,11 @@ textarea {
   padding: 1.2rem 2.65rem;
   cursor: pointer;
 }
+.banner__button-ticket:hover {
+  color: #fff;
+  background-color: #3430b8;
+}
+
 .load__button {
   font-family: "DM Sans", sans-serif;
   font-size: 1.1rem;
@@ -273,6 +291,7 @@ textarea {
   background-image: url("../../assets/images/gradient.png"), url("../../assets/images/people.png");
   background-size: cover;
   background-position: center;
+  background-color: dimgray;
   min-height: 58rem;
 }
 @media (max-width: 1246px) {
@@ -393,7 +412,7 @@ textarea {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-@media (max-width: 554px) {
+@media (max-width: 556px) {
   .form__items {
     display: -webkit-box;
     display: -ms-flexbox;

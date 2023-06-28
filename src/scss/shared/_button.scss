@@ -18,6 +18,10 @@
         margin: auto;
         margin-top: 2rem;
     }
+    &:hover{
+        color: #fff;
+        background-color: #a00d51;
+    }
 }
 
 .banner__button-ticket{
@@ -29,6 +33,10 @@
     cursor: pointer;  
     @media(max-width:320px){
 
+    }
+    &:hover{
+        color: #fff;
+        background-color: #3430b8;
     }
 }
 
