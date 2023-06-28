@@ -106,7 +106,6 @@ textarea {
 }
 
 .header {
-  position: fixed;
   top: 0;
   min-width: 100%;
   min-height: 78px;
@@ -274,7 +273,6 @@ textarea {
   background-image: url("/src/assets/images/gradient.png"), url("/src/assets/images/people.png");
   background-size: cover;
   background-position: center;
-  padding-top: 5rem;
   min-height: 58rem;
 }
 .banner__content-box {
