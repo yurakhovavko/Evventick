@@ -523,13 +523,6 @@ textarea {
     margin-bottom: 2rem;
   }
 }
-@media (max-width: 768px) {
-  .upcoming__title {
-    float: none;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-}
 .upcoming__choice {
   display: -webkit-box;
   display: -ms-flexbox;
