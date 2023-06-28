@@ -2,10 +2,7 @@
 
     transform: translateY(-50%); 
     // .form  background: #ffffff;
-    @media(max-width:320px){
-        transform: translateY(-20%); 
 
-    }
 
     &__items {
         display: flex;
@@ -16,9 +13,14 @@
         border-radius: 25px;
         padding: 2rem 3rem;
         justify-content: space-around;
+        @media(max-width:554px){
+            display: flex;
+            flex-direction: column;
+        }
         @media(max-width:428px){
             display: flex;
             flex-direction: column;
+            border-radius:0%;
         }
     }
 

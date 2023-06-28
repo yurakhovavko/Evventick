@@ -33,13 +33,23 @@
 }
 
 .load__button{
-    border: 2px solid;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1rem;
     color: #3D37F1;
-    border-radius:7rem;
-    padding:1.3rem 2.8rem;
-    cursor: pointer;   
-}
+    border: 2px solid #3D37F1;
+    border-radius: 7rem;
+    cursor: pointer;
+    padding: 1.3rem 2.8rem;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+    display: block;
 
+    &:hover{
+        color: #fff;
+        background-color: #3430b8;
+    }
+}
 
 .create__button{
     margin-top: 1rem;
