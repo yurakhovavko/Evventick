@@ -412,7 +412,7 @@ textarea {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-@media (max-width: 554px) {
+@media (max-width: 556px) {
   .form__items {
     display: -webkit-box;
     display: -ms-flexbox;
